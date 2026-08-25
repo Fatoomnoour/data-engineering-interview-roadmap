@@ -1,5 +1,22 @@
 # Data Engineering Interview Roadmap
 
+[![Tests](https://img.shields.io/badge/Tests-local%20pytest-2ea44f.svg)](projects/01-batch-api-to-postgres/tests) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB.svg)](https://www.python.org/) [![Free Resources](https://img.shields.io/badge/Resources-Free-2ea44f.svg)](resources/free-resources.md)
+
+> **A practical path from SQL basics to production-grade data systems.**
+
+[**Start here**](docs/level-check.md) · [**Follow the roadmap**](docs/roadmap.md) · [**Build projects**](projects/README.md) · [**Prepare for interviews**](interview/README.md)
+
+## Visual learning path
+
+```mermaid
+flowchart LR
+    A[01 Foundations] --> B[02 Junior-ready]
+    B --> C[03 Production-ready]
+    C --> D[04 Advanced]
+    D --> E[05 Senior / Staff]
+    E --> F[Interview-ready portfolio]
+```
+
 خارطة طريق عملية ومجانية للاستعداد لمسار **Data Engineering** ومقابلاته، من الصفر حتى مستوى Senior/Staff. هذا المشروع ليس قائمة أدوات للحفظ؛ بل منهج متدرج يربط بين الأساسيات، بناء الأنظمة، تشغيلها في الإنتاج، والقدرة على شرح القرارات في المقابلة.
 
 > **الفكرة الأساسية:** لا تنتقل إلى أداة جديدة قبل أن تستطيع بناء Pipeline صغيرة، اختبارها، مراقبتها، وإعادة تشغيلها بأمان.
@@ -13,6 +30,15 @@
 ابدأ باختبار تحديد المستوى في [`docs/level-check.md`](docs/level-check.md)، ثم اختر المستوى الذي ينقصك بدلاً من إعادة دراسة كل شيء. لكل مستوى مخرجات قابلة للقياس ومشروع إثبات (Proof Project). استخدم [`docs/study-plan.md`](docs/study-plan.md) كخطة 16 أسبوعاً، أو عدّلها حسب وقتك. بعد كل مشروع اكتب صفحة README تشرح المشكلة، الـ grain، التصميم، اختياراتك، اختبارات الجودة، التكلفة التقريبية، وما الذي ستغيره في الإنتاج.
 
 ## خريطة المستويات
+
+| ◆ | المسار | النتيجة |
+|---|---|---|
+| `01` | Foundations | أساس برمجة وSQL قابل للتطبيق |
+| `02` | Junior-ready | أول Batch pipeline موثوقة |
+| `03` | Production-ready | Warehouse مع quality وorchestration |
+| `04` | Advanced | Distributed processing وstreaming |
+| `05` | Senior / Staff | System design وreliability وcost |
+
 
 | المستوى | الهدف | المهارات المركزية | إثبات الجاهزية |
 |---|---|---|---|

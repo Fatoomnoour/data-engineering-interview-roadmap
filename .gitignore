@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data and local services
+*.csv
+*.jsonl
+*.parquet
+*.duckdb
+*.db
+*.sqlite
+postgres-data/
+logs/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

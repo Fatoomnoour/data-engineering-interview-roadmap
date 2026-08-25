@@ -54,12 +54,29 @@ flowchart LR
 |---|---|
 | خارطة المهارات والمخرجات | [`docs/roadmap.md`](docs/roadmap.md) |
 | خطة مذاكرة أسبوعية | [`docs/study-plan.md`](docs/study-plan.md) |
+| Study Tracker قابل للنسخ | [`templates/study-tracker.md`](templates/study-tracker.md) |
+| دليل استخدام الـ Tracker | [`docs/study-tracker-guide.md`](docs/study-tracker-guide.md) |
 | اختبار تحديد المستوى | [`docs/level-check.md`](docs/level-check.md) |
 | المشاريع المتدرجة | [`projects/README.md`](projects/README.md) |
 | تحضير المقابلة | [`interview/README.md`](interview/README.md) |
 | الشركات وأنماط التقديم | [`interview/companies.md`](interview/companies.md) |
 | المصادر المجانية | [`resources/free-resources.md`](resources/free-resources.md) |
 | طريقة المساهمة | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+
+## Study Tracker
+
+هل تريدين متابعة تقدمك بطريقة عملية؟ انسخي [`templates/study-tracker.md`](templates/study-tracker.md) إلى مجلدك الشخصي، ثم استخدمي [`docs/study-tracker-guide.md`](docs/study-tracker-guide.md) لتحديد الأهداف الأسبوعية، تسجيل الجلسات، ربط الإنجاز بدليل، ومراجعة الفجوات قبل الانتقال للمستوى التالي.
+
+## اقتراحات التطوير القادمة
+
+| الأولوية | الإضافة | القيمة |
+|---:|---|---|
+| 1 | بنك SQL متدرج مع حلول واختبارات | يحول الخطة إلى ممارسة يومية قابلة للقياس |
+| 2 | قوالب README وADR وData Contract | يرفع جودة مشاريع الـ portfolio |
+| 3 | مشروعان runnable عبر Docker Compose | يجعل التعلم reproducible لا نظرياً فقط |
+| 4 | GitHub issue templates للتحديات والأسئلة | يشجع المجتمع على المساهمة المنظمة |
+| 5 | قاموس عربي/إنجليزي للمصطلحات | يساعد المبتدئ العربي في البحث والمقابلات |
+| 6 | مراجعة دورية للروابط والإصدارات | يمنع تقادم المصادر والأوامر |
 
 ## المنهج في جملة واحدة
 
